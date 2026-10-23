@@ -1,5 +1,6 @@
 #hero {
   text-align: center;
+  
   & img[src*="music"] {
   margin-inline: auto;
   width: 12.875rem;
