@@ -10,6 +10,9 @@ footer {
   & nav.even-columns {
     gap: 4rem;
   }
+  & nav > ul {
+    gap: 1.25rem;
+  }
   .top ul {
     align-content: start;
   }
@@ -39,6 +42,7 @@ footer {
       margin-left: auto;
       & ul {
         width: 14rem;
+        gap: 1.5rem
       }
     }
   }
