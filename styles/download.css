@@ -16,10 +16,13 @@
   @media (width >= 80em) {
     .card {
       padding: 8.75rem 5rem ;
-    }
       & > div:nth-child(1) {
         max-width: 40rem;
       }
+      & > img {
+        width: 29.125rem;
+      }
+    }
   }
  
 }
