@@ -9,6 +9,17 @@
       right: -3.5rem;
     }
   }
-
-
+  .buttons {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  @media (width >= 80em) {
+    .card {
+      padding: 8.75rem 5rem ;
+    }
+      & > div:nth-child(1) {
+        max-width: 40rem;
+      }
+  }
+ 
 }
